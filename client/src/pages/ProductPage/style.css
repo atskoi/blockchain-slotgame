@@ -1,0 +1,44 @@
+iframe {
+  border: 0 solid black;
+  width: 600px;
+  height: 45px;
+  padding: 0px;
+  margin-bottom: 5px;
+}
+
+input {
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 3px;
+  width: 350px;
+  height: 30px;
+  margin-bottom: 15px;
+}
+
+#card-data-error {
+  color: red;
+}
+
+form {
+  width: 500px;
+}
+
+#submit-btn, #clear-btn {
+  background-color: #3f143e;
+  color: #FFF;
+  width: 357px;
+}
+
+.results {
+  background-color: #e8e8e8;
+  padding: 20px;
+  width: 360px;
+}
+
+#ach-token,
+#card-token,
+#cvv-token {
+  word-break: break-all;
+  font-weight: 600;
+}
